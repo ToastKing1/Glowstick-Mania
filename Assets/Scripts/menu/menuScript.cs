@@ -15,8 +15,8 @@ public class menuScript : MonoBehaviour
         
     }
 
-    public void playPressed()
+    public void playPressed(int level)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(level);
     }
 }
